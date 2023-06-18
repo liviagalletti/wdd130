@@ -58,6 +58,8 @@ body{
 }
 
 header{
+  display: grid;
+  grid-template-columns: 150px auto;
   background-color:#A3B18A ;
 }
 
@@ -146,12 +148,6 @@ footer .social img{
 
 .card-img{
   border: 10px solid #DAD7CD;
-}`
-
-
-header {
-  display: grid;
-  grid-template-columns: 150px auto;
 }
 
 nav{
@@ -301,3 +297,136 @@ footer {
   }
 }
           
+/* Page 2 Blog */
+
+#blog{
+  display: block;
+  width: 100%;
+  padding: auto;
+  margin: 0 auto;   
+}
+
+#booking{
+  display: grid;
+  grid-template-columns: 1800px;
+  width: 100%;
+  height: 300px ;
+  background-color:#A3B18A;
+  color: #fcfbfb;
+  padding: 20px;;
+  font-size:x-large;
+}
+
+.reserve {
+  color: #344E41;
+  width: 100px;
+  height: 50px;
+}
+.pg2_hometitle {
+  font-family:"Sedgwick Ave";
+  text-align: center;
+  color: #344E41;
+  font-size: 3vw;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.pg2_title {
+  margin-bottom: 20px ;
+  text-align: center;
+}
+
+.p1 {
+  text-align: center;
+  margin: 0;
+}
+
+#highlights {
+ display: grid;
+ grid-template-columns: 1800;
+ padding: 20px;
+ margin: auto;
+ font-size: 2vw;
+}
+
+
+.pg2_hightlight {
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.pg2_hightlight .img {
+  width: 100vw;
+  height: auto;
+}
+
+#encounters {
+  display: grid;
+  grid-template-columns: 1800;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  background-color:#DAD7CD;
+  font-size: 1vw;
+}
+
+.wild {
+  text-align: center;
+}
+
+.scorpions {
+  display: grid;
+  grid-template-columns: 1300px 300px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1vw;
+  align-items: center;
+}
+
+
+.img_scorpion {
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+}
+
+.sheep {
+  display: grid;
+  grid-template-columns: 300px 1300px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1vw;
+  align-items: center;
+}
+
+.img_sheep {
+  width: 250px;
+  height: auto;
+  margin-right: 50px ;
+}
+
+.embrace {
+  display: grid;
+  grid-template-columns: 1300px 300px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1vw;
+  align-items: center;
+}
+
+.group {
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+}
+
+nav a {
+  font:
+}
