@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono&display=swap');
+@import url('https://coolors.co/palette/2f4858-33658a-86bbd8-f6ae2d-f26419');
+
+body {
+    font-family: "Roboto Mono", "Helvetica", sans-serif;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #33658a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #33658a;
+    font-size: large;
+    text-decoration: none;
+}
+
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #F6AE2D;
+}
+
+/* home content */
+
+.myself {
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.welcome {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+.intro{
+    display: grid;
+    grid-template-columns: 300px 1500px;
+    text-align: left;
+}
+
+.introduce {
+    text-align: justify;
+    padding: 80px;
+    margin-left: 100px;
+}
+
+.me{
+    float: left;
+    width: 400px;
+    height: auto;
+    padding: 50px;
+}
+
+
+.finish_intro {
+    display: grid;
+    text-align: center;
+    padding: 50px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #33658a;
+    padding: 10px;
+    color: white;
+}
+  
+footer p {
+    text-align: left;
+}
+  
+footer a {
+    margin-right: 10px;
+    align-items: right;
+}
+  
+#social {
+    display: block;
+
+}
+  
+#social img {
+    width: 50px;
+    height: auto;
+}
