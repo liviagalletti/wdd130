@@ -184,3 +184,33 @@ footer a {
 .marrocos {
     width: 600px;
 }
+
+
+/* education */
+ 
+.byu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+.tech{
+    display: grid;
+    grid-template-rows: 500px;
+    padding: 50px;
+    align-items: center;
+}
+
+.byuima {
+    float: right;
+    width: 300px;
+    padding: 50px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+.Thanks{
+    display: grid;
+    padding: 50px;
+    text-align: center;
+}
